@@ -1,11 +1,12 @@
 package br.com.edubarbieri.entities;
 
 import java.util.Date;
+import java.util.List;
 
 public class Location {
 
 	private User user;
-	private Movie movie;
+	private List<Movie> movies;
 	private Date locationDate;
 	private Date returnDate;
 	private Double value;
@@ -14,12 +15,6 @@ public class Location {
     }
     public void setUser(User user) {
         this.user = user;
-    }
-    public Movie getMovie() {
-        return movie;
-    }
-    public void setMovie(Movie movie) {
-        this.movie = movie;
     }
     public Date getLocationDate() {
         return locationDate;
@@ -39,6 +34,12 @@ public class Location {
     public void setValue(Double value) {
         this.value = value;
     }
+	public List<Movie> getMovies() {
+		return movies;
+	}
+	public void setMovies(List<Movie> movies) {
+		this.movies = movies;
+	}
 	
 	
 }
