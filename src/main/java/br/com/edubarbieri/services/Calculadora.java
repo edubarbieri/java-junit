@@ -18,5 +18,9 @@ public class Calculadora {
 		}
 		return valueOne / valueTwo;
 	}
+	
+	public void print() {
+		System.out.println("Passou por aqui");
+	}
 
 }

@@ -59,9 +59,7 @@ public class CalculadoraTest {
 		int valueOne = 15;
 		int valueTwo = 0;
 		// acao
-		int result = calc.divide(valueOne, valueTwo);
-		// verificacao
-		assertEquals(5, result);
+		calc.divide(valueOne, valueTwo);
 	}
 
 }
